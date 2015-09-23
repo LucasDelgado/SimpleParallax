@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+	<body>
+		<header>
+			<div class="globo">
+				
+			</div>
+
+			<div class="globo2">
+				
+			</div>
+		</header>
+		
+	</body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<SCRIPT TYPE="text/javascript">
+	$(document).on("ready",function(){
+
+		$(window).scroll(function(){
+			var escrolea=$(window).scrollTop();
+
+				$(".globo").css({
+					"background-position-y":400+ escrolea*-0.30+"px",
+				})
+
+				$(".globo2").css({
+					"background-position-y":900+ escrolea*-0.30+"px",
+				})
+
+				$("header").css({
+					"background-position-y": escrolea*-0.90+"px",
+				})
+
+		})
+
+	})
+	</SCRIPT>
+</html>

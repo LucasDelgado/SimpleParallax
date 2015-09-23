@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+header{
+	background: url(http://i.ytimg.com/vi/mnXbsrdhJxQ/maxresdefault.jpg);
+	background-size: cover;
+}
+
+.globo{
+	background-image: url(../img/globo.png);
+	min-height: 2000px;
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y: 400px; 
+}
+
+.globo2{
+	background-repeat: no-repeat;
+	min-height: 2000px;
+	background-position-x:100px;
+	background-position-y: 900px;
+	background: url(http://imageshack.com/f/688/foroskamaslecomrendersg.png); 
+}
